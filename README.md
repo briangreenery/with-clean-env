@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/virwljswpbuaifb7/branch/master?svg=true)](https://ci.appveyor.com/project/BrianGreen/with-clean-env/branch/master)
+
 # with-clean-env
 
 This is a Windows tool that runs a command in a clean user environment. In particular, the command

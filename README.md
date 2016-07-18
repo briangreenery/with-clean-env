@@ -30,3 +30,18 @@ $ with-clean-env cmd /c exit /b 123
 $ echo %ERRORLEVEL%
 123
 ```
+
+## Usage
+
+```
+Usage: with-clean-env cmd [arg1 arg2 ...]
+
+Summary:
+
+    Runs a command with a clean environment. In particular, the
+    command does not inherit the current process environment.
+
+For example:
+
+    with-clean-env cmd /c echo hello
+```

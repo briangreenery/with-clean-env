@@ -1,0 +1,10 @@
+[package]
+name = "with-clean-env"
+version = "0.1.0"
+authors = ["Brian Green <briangreenery@gmail.com>"]
+
+[dependencies]
+winapi = "0.2"
+kernel32-sys = "0.2"
+advapi32-sys = "0.2"
+userenv-sys = "0.2"
